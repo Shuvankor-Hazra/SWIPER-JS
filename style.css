@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.slider-area{
+    margin: 30px auto;
+    width: 800px;
+}
+.slider-area .swiper {
+    width: 100%;
+    height: 100%;
+}
+.slider-area .swiper-slide img{
+    height: 100%;
+    width: 100%;
+}
+.slider-area .swiper-slide{
+    position: relative;
+}
+.slider-area .swiper-slide a{
+    display: inline-block;
+    padding: 10px;
+}
+.slider-area .swiper-slide h2{
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.slider-area .swiper-wrapper{
+    padding-bottom: 30px;
+}
+.slider-area .swiper-button-next,
+.slider-area .swiper-button-prev{
+    top: 94%;
+}
+.slider-area .swiper-scrollbar{
+    bottom: 26px;
+}
+.slider-area .swiper-button-next,
+.slider-area .swiper-button-prev{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #333;
+    z-index: 99;
+}
+.slider-area .swiper-button-next::after,
+.slider-area .swiper-button-prev::after{
+    color: #333;
+    font-size: 20px;
+}
+.slider-area .swiper-button-disabled{
+    display: none;
+}
+.slider-area .single-slide{
+    padding-bottom: 50px;
+}
+.slider-area .swiper-scrollbar{
+    bottom: 48px;
+}
+
+@media only screen and (max-width:991px){
+    .slider-area{
+        width: 100%;
+    }
+}
+
+ 
+.review-area{
+    width: 800px;
+    margin: 30px auto;
+    position: relative;
+}
+.review-area .swiper-wrapper{
+    padding-bottom: 30px;
+}
+.review-area .swiper-button-next,
+.review-area .swiper-button-prev{
+    top: 85%;
+}
+.review-area .swiper-scrollbar{
+    bottom: 30px;
+}
+.review-area .swiper-button-next,
+.review-area .swiper-button-prev{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #333;
+    z-index: 99;
+}
+.review-area .swiper-button-next::after,
+.review-area .swiper-button-prev::after{
+    color: #333;
+    font-size: 20px;
+}
+.review-area .swiper-button-disabled{
+    display: none;
+}
+.review-area .single-review{
+    padding-left: 70px;
+    position: relative;
+}
+.review-area .single-review::after{
+    position: absolute;
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+    left: 0;
+    top: 0;
+}
+.single-review{
+    padding-bottom: 50px;
+}
+.single-review h2{
+    font-size: 32px;
+}
+.single-review h4{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #999;
+}
+.single-review p{
+    font-size: 10px;
+    margin-top: 20px;
+} 
